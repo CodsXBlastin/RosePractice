@@ -1,0 +1,5 @@
+  name: RosePractice
+  main: Rose\Loader
+  version: 1.0.0
+  api: 3.0.0
+  description: "Practice Plugin For Rose"
