@@ -17,7 +17,7 @@ class CommandManager {
     /**
      * CommandManager constructor.
      *
-     * @param HCF $core
+     * @param Loader $core
      */
     public function __construct(Loader $core) {
         $this->core = $core;
