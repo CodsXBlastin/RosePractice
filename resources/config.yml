@@ -1,0 +1,21 @@
+
+#Config For RoyalPractice
+
+HubX: 100
+#HUB X
+HubY: 0
+#HUBY
+HubZ: 100
+#HUBZ
+
+###JOINMESSAGE###
+JoinMessage: "§7You may disable your scoreboard by doing /scoreboard on||off"
+
+####QUITMESSAGE#####
+QuitMessage: "§7[§d-§7]"
+
+###SERVER NAME#####
+ServerName: "§r§7Rose §r§5Practice v.§d1.16"
+
+####SCOREBOARD###
+Scoreboardtitle: "§r§5RosePvP"
