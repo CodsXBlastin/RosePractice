@@ -165,8 +165,8 @@ class RoseListener implements Listener
 		            $menu->setName("§cTEST");
 		            $menu->setListener([$this, "handleAxe2"]);
 		            $inventory = $menu->getInventory();
-					$inventory->setItem(0,Item::get(279, 1, 1)->setCustomName("§r§dKohi")->setLore(["§r§5Kohi"]));;
-					$inventory->setItem(1,Item::get(388, 1, 1)->setCustomName("§r§dCustomEnchanted PVP")->setLore(["§r§5CustomEnchanted Armor"]));;
+					$inventory->setItem(0,Item::get(279, 1, 1)->setCustomName("§r§dKohi")->setLore(["§r§5Kohi"]));
+					$inventory->setItem(1,Item::get(388, 1, 1)->setCustomName("§r§dCustomEnchanted PVP")->setLore(["§r§5CustomEnchanted Armor"]));
                     $menu->send($player);
         }
     }
