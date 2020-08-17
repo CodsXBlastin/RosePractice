@@ -78,7 +78,7 @@ class TestCommand extends PluginCommand
 		            $menu->setName("§cTEST");
 		            $menu->setListener([$this, "handleWarpMenu"]);
 		            $inventory = $menu->getInventory();
-					$inventory->setItem(0,Item::get(340, 1, 1)->setCustomName("§r§dTEST")->setLore(["§r§cTesting"]));;
+					$inventory->setItem(0,Item::get(340, 1, 1)->setCustomName("§r§dTEST")->setLore(["§r§cTesting"]));
                     $menu->send($sender);
                             break;
                         
